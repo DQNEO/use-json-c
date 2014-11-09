@@ -1,9 +1,8 @@
 /**
- * Sample for using json-c
- * gcc -I /opt/json-c/include -L /opt/json-c/lib -ljson-c json.c  -o json
+ * gcc -I /opt/json-c/include -L /opt/json-c/lib -ljson-c role.c  -o role
  *
  * Usage:
- *  ./json sample.json
+ *  ./role  file.json
  */
 #include <stdio.h>
 #include <json-c/json.h>
