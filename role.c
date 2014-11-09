@@ -9,7 +9,7 @@
 
 void dump_json(struct json_object* const obj) {
     json_object_object_foreach(obj, key, val) {
-        printf("-- \t%s: %s\n", key, json_object_to_json_string(val));
+        printf("%s: %s\n", key, json_object_to_json_string(val));
     }
 }
 
