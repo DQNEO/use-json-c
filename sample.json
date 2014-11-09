@@ -1,7 +1,7 @@
 {
     'int_a' : 12345,
     'double_b' : 987.654321,
-    'string_c' : "joys of programming",
+    'string_c' : "hello world",
     'boolean_d' : true,
     'list' : [
         "banana",
